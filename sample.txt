@@ -6,7 +6,11 @@ public class HelloWorld {
 		Scanner userInputScanner = new Scanner(System.in);
 		System.out.print("What's your name?");
 		String userInputName - userInputScanner.nextLine();
+<<<<<<< HEAD
 		System.out.println("welcome" + userInputName + "!");
+=======
+		System.out.println("Hello" + userInputName + "! How are you?" + userInputName);
+>>>>>>> curry
 	}
 }
 
